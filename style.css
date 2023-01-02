@@ -1,0 +1,70 @@
+body {
+  background-image: url(./IMG/fundo-escritorio.jpg);
+  background-size: cover;
+}
+
+header {
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(147 , 129 , 255);
+  border-radius: 10px;
+  color: white;
+  font-family: Secular One, sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+  font-family: Manrope, sans-serif;
+}
+
+section {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  height: 30px;
+  width: 350px;
+}
+
+#parte-inicio-input {
+  margin-left: 25%;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 10px;
+  font-family: Manrope, sans-serif;
+}
+
+#parte-meio-infos {
+  background-color: white;
+  border-radius: 10px;
+  border: solid 2px rgb(184 , 184 , 255);
+  width: 50%;
+  padding: 15px;
+}
+
+ol {
+  padding: 10px;
+  font-size: 15px;
+  color: rgb(179 , 103 , 155);
+}
+
+#selected {
+  background-color: gray;
+  color: white;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#parte-fim-buttons button {
+  display: block;
+  width: 250px;
+  margin-left: 25%;
+}

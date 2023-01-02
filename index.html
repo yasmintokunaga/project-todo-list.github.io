@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/ba3b1efe3c.js"></script>
+    <script src="https://kit.fontawesome.com/6ee4ae182b.js" crossorigin="anonymous"></script>
+    <title>Minha lista de tarefas</title>
+</head>
+<body>
+    <header>
+        <h1><i class="fa-solid fa-calendar-check"></i>    Minha Lista de Tarefas</i></h1>
+    </header>
+    <main>
+        <section id="parte-inicio-input">
+            <input type="text" id="texto-tarefa">
+            <button id="criar-tarefa">Adicionar nova Tarefa</button>
+            <button id="salvar-tarefas">Salvar tarefas</button>
+        </section>
+        <section id="parte-meio-infos">
+            <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+            <ol id="lista-tarefas"></ol>
+        </section>
+        <section id="parte-fim-buttons">
+            <button id="mover-cima"><i class="fa-solid fa-arrow-up"></i>  Mover tarefa para cima</button>
+            <button id="mover-baixo"><i class="fa-solid fa-arrow-down"></i>  Mover tarefa para baixo</button>
+            <button id="remover-selecionado">Remover tarefa selecionada</button>
+            <button id="remover-finalizados">Remover tarefas finalizadas</button>
+            <button id="apaga-tudo"><i class="fa-regular fa-trash-can"></i>  Apagar todas tarefas</button>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
