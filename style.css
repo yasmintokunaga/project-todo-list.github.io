@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(255 , 238 , 221);
+  background-image: url(./IMG/fundo-escritorio.jpg);
+  background-size: cover;
 }
 
 header {
