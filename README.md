@@ -1,7 +1,27 @@
-# project-todo-list.github.io
+# Projeto To Do List
 
 Projeto realizado durante o curso de Desenvolvimento Web na Trybe em Dezembro, 2022.
 
-Conhecimentos técncicos utilizados: HTML, CSS, JavaScript (DOM, seletores, eventos, Local Storage).
+# Conhecimentos técnicos utilizados: 
 
-Objetivo: construir uma página de organização de tarefas. Onde é possível adicionar novas tarefas de forma ordenada, mudar a sua prioridade na lista, marcar a tarefa como concluída, apagar a tarefa selecionada ou concluída, apagar todas as tarefas da lista e deixar salvo as taregas no Local Storage.
+* HTML, 
+* CSS, 
+* JavaScript (DOM, seletores, eventos, Local Storage).
+
+# Objetivo: 
+
+Construir uma página de organização de tarefas. 
+
+# Requisitos:
+
+* Input para adição de novas tarefas
+* Incluir as tarefas em uma lista ordenadas
+* Possibilidade de selecionar a tarefa ao clicar 1x com mouse
+* Marcar a tarefa como concluída ao clicar 2x com o mouse
+* Botões para subir ou rebaixar a tarefa na lista
+* Botões para apagar: tarefa selecionada, tarefas concluídas, todas as tarefas
+* Salvar a lista de tarefas no Local Storage.
+
+# Resultado: 
+
+![resultado do meu projeto](./IMG/img-project-todo-list.png)
